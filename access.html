@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>English Cafe- ACCESS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon_drink_04_o.png">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+		<!--Jquery読み込み-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <div id="news">
+			<div class="header-decoration">
+				<div class="img-decoration" id="img-decoration1"></div>
+				<div class="img-decoration" id="img-decoration2"></div>
+			</div>
+			<h1><a href="index.html">English Cafe</a></h1>
+      <header class="page-header wrapper">
+        <div class="menu-for-sp">
+          <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <nav class="nav-for-sp">
+            <ul class="nav-ul-sp">
+              <li class="nav-li-sp"><a href="about.html">About</a></li>
+              <li class="nav-li-sp"><a href="content.html">Content</a></li>
+              <li class="nav-li-sp"><a href="access.html">Access</a></li>
+              <li class="nav-li-sp"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li class="flex-li">
+              <a href="access.html">Access</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!--パンくずリスト-->
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <!--1つ目-->
+      <li class="first-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="index.html">
+          <span class="breadcrumb-p" itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1"/>
+      </li>
+    <!--2つ目-->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="access.html">
+          <span class="breadcrumb-p" itemprop="name">Access</span>
+        </a>
+        <meta itemprop="position" content="2"/>
+      </li>
+    </ol>
+      <!--パンくずリスト終わり-->
+    <div class="wrapper page-title">
+      <h2 class="page-title">Access</h2>
+    </div>
+		<main>
+		    <section id="location">
+          <div class="wrapper">
+            <div class="location-info">
+              <h3 class="sub-title">English Cafe磯子店</h3>
+              <p>住所：神奈川県横浜市磯子区<br>
+                ○○○○○○ 000-0000<br>
+                電話：00-000-000<br>
+                営業時間：10:00~21:00<br>
+				        磯子駅から徒歩5分
+              </p>
+            </div>
+            <div class="location-map">
+				          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52038.85411690048!2d139.58006246035714!3d35.39463084424341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018435c7a25ffdd%3A0x4e5abb40a3459cf5!2z56We5aWI5bed55yM5qiq5rWc5biC56Ov5a2Q5Yy6!5e0!3m2!1sja!2sjp!4v1634778727486!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+      </section>
+		</main>
+		<!--トップへ戻るボタン-->
+		<p id="page-top"><a href="#"><i class="fas fa-caret-up"></i></a></p>
+		<footer>
+		    <h1><a href="index.html">English Cafe</a></h1>
+        <div class="footer-menu">
+          <nav>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="content.html">Content</a></li>
+              <li><a href="access.html">Access</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+		      <div id="sns1">
+            <a href="https://twitter.com/?lang=ja"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+            <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+		      </div>
+          <div class="wrapper">
+            <p><small>&copy;2021november graduate</small></p>
+          </div>
+    </footer>
+	<script src="index.js"></script>
+	</body>
+</html>

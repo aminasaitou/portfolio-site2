@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>English Cafe</title>
+        <meta charset="utf-8">
+        <meta name ="discription" content="超初心者も歓迎 レベル別で選べるから安心！！英会話カフェ">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon_drink_04_o.png">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <!--Jquery読み込み-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--bgSwitcher読み込み-->
+        <script type="text/javascript" src="/js/jquery.bgswitcher.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.BgSwitcher/0.4.3/jquery.bgswitcher.min.js" integrity="sha512-cwDh42ooq48+o2kkbsn72Kwd9/Ghc34d48DFlNfOCRFJ1dM6EeIFs9d7PIBa4SSv6enwQAYmxsLZGgKOV0yE1A==" crossorigin="anonymous"></script>
+        <!--bgSwitcherを使って背景画像を設定-->
+        <script>
+        jQuery(function ($) {
+                $('.bgSwitcher').bgSwitcher({
+                  images: ['images/latte.jpg', 'images/cofee-cup.jpg','images/cafe.png'], // 切り替える背景画像を指定
+                  interval: 3000, // 背景画像を切り替える間隔を指定 3000=3秒
+                  loop: true, // 切り替えを繰り返すか指定
+                  effect: "fade", // エフェクトの種類を指定
+                  duration: 800, // エフェクトの時間を指定
+                  easing: "swing" // エフェクトのイージングをlinear,swingから指定
+                });
+            });
+        </script>
+    </head>
+    <body>
+    <div class="bgSwitcher">
+      <div class="container">
+      <header class="page-header wrapper" style="display: flex; flex-direction: column-reverse;">
+    <!--ハンバーガーメニュー-->
+      <div class="menu-for-sp">
+        <span class="nav_toggle">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <nav class="nav-for-sp">
+          <ul class="nav-ul-sp">
+            <li class="nav-li-sp"><a href="about.html">About</a></li>
+            <li class="nav-li-sp"><a href="content.html">Content</a></li>
+            <li class="nav-li-sp"><a href="access.html">Access</a></li>
+            <li class="nav-li-sp"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    <!--ハンバーガーメニュー終わり-->
+      <nav>
+        <ul class="main-nav">
+          <li><a href="about.html">About</a></li>
+          <li><a href="content.html">Content</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+			<h1><a href="index.html" id="big-logo">English Cafe</a></h1>
+    </header>
+    <main class="index-main">
+      <h2 class="page-title" id="stroke">Special Tea Time</h2>
+      <p id="main-phrase">Let's Go Wherever You Want To Go</p>
+      <a class="button" href="contact.html">無料体験の予約</a>
+    </main>
+   </div>
+  </div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>English Cafe- ABOUT</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon_drink_04_o.svg">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  		<!--Jquery読み込み-->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <div id="news">
+		    <div class="header-decoration">
+				      <div class="img-decoration" id="img-decoration1"></div>
+			        <div class="img-decoration" id="img-decoration2"></div>
+			</div>
+			<h1><a href="index.html">English Cafe</a></h1>
+			<header class="page-header wrapper">
+        <!--ハンバーガーメニュー-->
+        <div class="menu-for-sp">
+          <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+          <nav class="nav-for-sp">
+            <ul class="nav-ul-sp">
+              <li class="nav-li-sp"><a href="about.html">About</a></li>
+              <li class="nav-li-sp"><a href="content.html">Content</a></li>
+              <li class="nav-li-sp"><a href="access.html">Access</a></li>
+              <li class="nav-li-sp"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--ハンバーガーメニュー終わり-->
+        <nav>
+          <ul class="main-nav">
+            <li class="flex-li">
+              <a href="about.html">About</a>
+            </li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!--パンくずリスト-->
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <!--1つ目-->
+      <li class="first-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="index.html">
+          <span class="breadcrumb-p" itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1"/>
+      </li>
+    <!--2つ目-->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="about.html">
+          <span class="breadcrumb-p" itemprop="name">About</span>
+        </a>
+        <meta itemprop="position" content="2"/>
+      </li>
+    </ol>
+  <!--パンくずリスト終わり-->
+  <div class="wrapper page-title">
+		<h2 class="page-title">About</h2>
+	</div>
+  <div class="news-contents wrapper">
+    <aside>
+      <div id="follow">
+        <h3 class="sub-title">お知らせ</h3>
+          <ul class="sub-menu">
+            <li><a href="#">イベントについて</a></li>
+            <li><a href="#">営業時間変更について</a></li>
+            <li><a href="#">2021年年末オンラインイベント開催</a></li>
+          </ul>
+      </div>
+    </aside>
+    <article>
+      <header class="post-info">
+        <h2 class="post-title">英会話カフェ</h2>
+      </header>
+      <img src="images/conversation-all.jpg" alt="カフェ">
+      <p class="header-p">
+        英会話カフェとは
+      </p>
+      <p class="for-about">英会話スクールとは異なりグループでのレッスンを行わずその場に集まった人たちで英語のフリートークをする場所です。
+        ドリンクを飲みながら気軽に英語を話せます。<br>
+        英語に自信がなくて会話についていけるか心配な方でも安心で希望すればレベル別のコースもあります。<br>
+        低価格で予約不要なので空いた時間に気軽に英会話ができてしまいます。(予約については必要なところもあります)<br>
+      </p>
+    </article>
+  </div>
+	<!--トップへ戻るボタン-->
+	<p id="page-top"><a href="#"><i class="fas fa-caret-up"></i></a></p>
+  <footer>
+	  <h1><a href="index.html">English Cafe</a></h1>
+    <div class="footer-menu">
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="content.html">Content</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+		<div id="sns1">
+      <a href="https://twitter.com/?lang=ja"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+		</div>
+    <div class="wrapper">
+      <small>&copy;2021november graduate</small>
+    </div>
+  </footer>
+	<script src="index.js"></script>
+  </script>
+</body>
+</html>

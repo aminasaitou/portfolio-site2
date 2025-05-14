@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>English Cafe- CONTACT</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon_drink_04_o.png">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+		<!--Jquery読み込み-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+    <div id="news">
+          <div class="header-decoration">
+          <div class="img-decoration" id="img-decoration1"></div>
+          <div class="img-decoration" id="img-decoration2"></div>
+			  </div>
+			<h1><a href="index.html">English Cafe</a></h1>
+      <header class="page-header wrapper">
+      <!--ハンバーガーメニュー-->
+        <div class="menu-for-sp">
+          <span class="nav_toggle">
+          <i></i>
+          <i></i>
+          <i></i>
+          </span>
+          <nav class="nav-for-sp">
+            <ul class="nav-ul-sp">
+              <li class="nav-li-sp"><a href="about.html">About</a></li>
+              <li class="nav-li-sp"><a href="content.html">Content</a></li>
+              <li class="nav-li-sp"><a href="access.html">Access</a></li>
+              <li class="nav-li-sp"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      <!--ハンバーガーメニュー終わり-->
+        <nav>
+          <ul class="main-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="content.html">Content</a></li>
+            <li><a href="access.html">Access</a></li>
+            <li class="flex-li">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!--パンくずリスト-->
+    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <!--1つ目-->
+      <li class="first-breadcrumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="index.html">
+          <span class="breadcrumb-p" itemprop="name">Home</span>
+        </a>
+        <meta itemprop="position" content="1"/>
+      </li>
+      <!--2つ目-->
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="contact.html">
+          <span class="breadcrumb-p" itemprop="name">Contact</span>
+        </a>
+        <meta itemprop="position" content="2"/>
+      </li>
+    </ol>
+    <!--パンくずリスト終わり-->
+    <div class="wrapper page-title">
+      <h2 class="page-title">Contact</h2>
+    </div>
+  <div id="form">
+	   <p>無料体験レッスンの予約もこちらで可能です。<br>
+		     予約の際は必須項目、メッセージ記入欄に<span id="form-information">希望レベル・希望の日程・時刻</span>を入力してください。
+    </p>
+    <form>
+      <div>
+        <label for="name" class="name">名前<span>(必須)</span></label>
+        <input type="text" id="name" name="your-name">
+      </div>
+      <div>
+        <label for="email" class="e-mail">メールアドレス<span>(必須)</span></label>
+        <input type="email" id="imail" name="your-email">
+      </div>
+		  <div>
+			     <p id="reserve-date">無料体験予約日程</p><br>
+           <input type="date" id="date">
+      </div>
+      <div>
+        <label for="message" class="message">メッセージ<span>(必須)</span></label>
+        <textarea id="message" name="your-message"></textarea>
+      </div>
+      <input type="submit" class="button" value="送信">
+    </form>
+  </div>
+	<!--トップへ戻るボタン-->
+  <p id="page-top"><a href="#"><i class="fas fa-caret-up"></i></a></p>
+  <footer>
+    <h1><a href="index.html">English Cafe</a></h1>
+    <div class="footer-menu">
+      <nav>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a　href="content.html">Content</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="sns1">
+      <a href="https://twitter.com/?lang=ja"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+    </div>
+    <div class="wrapper">
+      <p><small>&copy;2021november graduate</small></p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+  </body>
+</html>

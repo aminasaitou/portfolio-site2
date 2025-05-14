@@ -1,0 +1,986 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+html{
+    font-size: 100%;
+}
+
+div{
+    width: 100%;
+}
+
+body{
+    font-family: "Yu Gothic Mekium", "游ゴシック Medium",YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: #432;
+	  background-color: #f5e4dc;
+    box-sizing: border-box;
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+	margin-top: -68px;
+}
+
+h1 a{
+    font-family: 'Lobster Two', cursive;
+    color: #432;
+}
+a{
+    text-decoration: none;
+}
+
+.index-main{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.index-main p{
+  padding: 30px 0;
+}
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+/*ハンバーガーメニュー*/
+.menu-for-sp{
+  display: none;
+}
+
+/*ヘッダーのメニュー*/
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+#main-nav{
+  padding: 50px 0;
+}
+
+.main-nav li{
+    margin: 0 42px;
+    align-items: center;
+}
+
+.main-nav a{
+    color: black;
+    font-family: serif;
+}
+
+.main-nav a:hover{
+    color: #fff;
+}
+
+/*メニューの隣のロゴ*/
+.flex-li{
+    display: flex;
+}
+
+.rogo{
+    height: 25px;
+    object-fit: contain;
+    padding-right: 5px;
+}
+
+.rogo:hover{
+  transform: rotate(9deg);
+}
+
+.page-header{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.home-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+.page-title{
+    font-size: 5rem;
+    font-family: 'Lobstersr', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*index.htmlのキャッチの白い縁*/
+#stroke{
+  -webkit-text-stroke: 1px wheat;
+  font-weight: bold;
+  font-family: serif;
+}
+
+#main-phrase{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: serif;
+}
+
+main{
+  padding-bottom: 5%;
+}
+
+/*index.htmlのボタン*/
+.button{
+    font-size: 1.375rem;
+    background: #E0A080;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+	 box-shadow: 0px 3px #201e1e;
+   font-family: serif;
+}
+
+.button:active{
+	box-shadow: none;
+	position: relative;
+	top: 3px;
+}
+
+.button:hover{
+    background: #a5765f;
+}
+
+#big-logo{
+	margin-top: 90px;
+}
+
+#home .page-title{
+    text-transform: none;
+}
+
+/*ヘッダーの飾り*/
+.header-decoration{
+	display: flex;
+	justify-content: space-between;
+}
+
+.decoration{
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	object-fit: contain;
+}
+
+
+.img-decoration{
+	height: 101px;
+	width: 100px;
+}
+
+#img-decoration1{background-image: url("images/headerdesignleft.png")}
+#img-decoration2{background-image: url("images/headerdesignright.png")}
+
+#news{
+    background-color: #E0A080;
+	  position: relative;
+}
+
+.title{
+  text-align: center;
+  border: solid;
+  position: relative;
+}
+
+.box{
+  position: relative;
+  height: 505px;
+  background-image: url("images/bcee594d804f4e7c29b2b93334a53146fbc990db.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+#header-for-menu{
+    position: absolute;
+}
+
+.title-introduction{
+  position: absolute;
+  top: 33%;
+}
+
+#news .page-title{
+    text-align: center;
+}
+
+/*フッター*/
+footer{
+    background: #E0A080;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p{
+    color: #432;
+    font-size: 0.875rem;
+}
+
+.footer-menu li{
+    list-style: none;
+}
+
+.footer-menu li a{
+    color: black;
+    font-family: serif;
+}
+
+.footer-menu li a:hover{
+  color: white;
+  border-bottom: 1px dashed #432;
+}
+
+#sns1 a{
+    color: #432;
+    padding: 0 10px;
+}
+article{
+    width: 74%;
+}
+
+aside{
+    width: 22%;
+  }
+
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.post-info{
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+
+.post-title{
+    font-family: "Yu Mincho", "YuMincho", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+	  color: #432;
+	  background-color: #E0A080;
+	  border-left: 4px solid #432;
+}
+
+article img{
+    margin-bottom: 25px;
+}
+
+.for-about{
+    margin-bottom: 20px;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+}
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #E0A080 dashed;
+    font-weight: normal;
+}
+
+aside p{
+    padding: 12px 10px;
+}
+
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover{
+    color: #E0A080;
+}
+
+/*携帯版600px以下*/
+@media (max-width: 600px){
+  .title{
+    text-align: center;
+    border: solid;
+  }
+
+  .img-for-top{
+        height: 193px;
+  }
+
+   /*header*/
+   .main-nav{
+       display: none;
+   }
+
+   /*ハンバーガーメニュー*/
+   .menu-for-sp{
+     display: block;
+    position: absolute;
+    top:0
+   }
+
+   /*3本線の親要素*/
+   .nav_toggle{
+     display: block;
+     position: relative;
+     width: 1.75rem;
+     height: 1.5rem;
+     z-index: 100;
+   }
+
+   /*3本線*/
+   .nav_toggle i{
+     display: block;
+     width: 100%;
+     height: 5px;
+     background-color: #432;
+     position: absolute;
+     transition: transform .5s, opacity .5s;
+     border-radius: 13px;
+   }
+
+    /*三本戦の一番上*/
+   .nav_toggle i:nth-child(1){
+     top: 0;
+   }
+   /*三本戦の真ん中*/
+   .nav_toggle i:nth-child(2){
+     top: 0;
+     bottom: 0;
+     margin: auto;
+   }
+   /*三本戦の一番下*/
+   .nav_toggle i:nth-child(3){
+     bottom: 0;
+   }
+
+   /*メニュークリック後三本戦回転させる*/
+   .nav_toggle.show i:nth-child(1){
+     transform: translateY(8px) rotate(-45deg);
+   }
+   .nav_toggle.show i:nth-child(2){
+     opacity: 0;
+   }
+   .nav_toggle.show i:nth-child(3){
+     transform: translateY(-12px) rotate(45deg);
+   }
+   .nav-for-sp{
+     position: fixed;
+     top: 3rem;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     padding: 1rem;
+     opacity: 0;
+     visibility: hidden;
+     transition: opacity .5s, visibility .5s;
+   }
+
+   .nav-for-sp.show{
+     opacity: 0.9;
+     visibility: visible;
+     background-color: #e0a080;
+     z-index: 90;
+     text-align: center;
+   }
+
+   .nav-ul-sp{
+     padding-top: 62px;
+   }
+
+   .nav-li-sp{
+     list-style: none;
+     padding: 10px;
+     z-index: 100;
+   }
+
+    .nav-li-sp a{
+      color: #432;
+      font-family: serif;
+    }
+
+    .nav-li-sp a:hover{
+      border-bottom: dashed #432;
+    }
+     /*ハンバーガーメニュー終わり*/
+	#big-logo{
+	 margin-top: 90px;
+    font-size: 40px;
+}
+
+   .home-content{
+       margin-top: 20%;
+   }
+
+   .page-header{
+       flex-direction: column;
+       align-items: center;
+   }
+
+	.page-title{
+		text-align: center;
+	}
+
+   .header-flex{
+       display: flex;
+       justify-content: center;
+   }
+
+   .wrapper{
+       justify-content: center;
+   }
+
+   /*news*/
+   .news-contents{
+       flex-direction: column;
+   }
+
+   article,
+   aside{
+       width: 100%;
+   }
+
+   #news .page-title{
+       margin-top: 30px;
+   }
+
+   aside{
+       margin-top: 60px;
+   }
+
+   .post-info{
+       margin-bottom: 30px;
+   }
+
+	/*コンテンツのレベル説明*/
+	.first-row{
+		display: flex;
+}
+	.second-row{
+		display: flex;
+	}
+
+	/*eventの画像*/
+.month-images{
+	background-size: contain;
+	background-repeat: no-repeat;
+  margin-left: 38px;
+}
+
+#event-row1{
+	display: flex;
+	flex-direction: column;
+	}
+
+#event-row2{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#event-row3{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#event-row4{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#event-row5{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#event-row6{
+	display: flex;
+	flex-direction: column;
+}
+
+.month{
+  padding-bottom: 11px;
+}
+
+.month p{
+    padding-bottom: 0;
+}
+
+}
+/*携帯版終わり*/
+
+/*お知らせ*/
+aside #follow{
+    position: sticky;
+    margin-bottom: 0;
+    top: 10px;
+     }
+
+.header-p{
+    font-size: 30px;
+    font-family: "Yu Mincho", "YuMincho", serif;
+    }
+
+#menu{
+    background-image: url(img/cup-829527_1280_auto_x2\ \(1\).jpg);
+    height: 270px;
+    margin-bottom: 40px;
+    background-position: center;
+    }
+
+.menu-content{
+    max-width: 560px;
+    margin-top: 10%;
+    }
+
+.menu-content .page-title{
+    text-align: center;
+    }
+
+  .menu-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+    }
+
+  .item img{
+    border-radius: 50%;
+}
+
+/*フォーム*/
+  #form-information{
+    color: #8d4f25;
+    text-decoration: underline;
+}
+
+  #form{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 4% 0 4%;
+}
+
+  form{
+    padding-top: 20px;
+    padding-bottom: 10%;
+}
+
+  form-div{
+	  margin-bottom: 14px;
+}
+
+  form span{
+  	color: #8d4f25;
+  	font-size: 11px;
+    text-decoration: underline;
+}
+
+/*フォームの入力欄*/
+  .name{
+	  padding-top: 10px;
+}
+
+  .e-mail{
+	  padding-top: 20px;
+}
+
+  #reserve-date{
+	  padding-top: 20px;
+}
+
+  .message{
+	  padding-top: 25px;
+}
+
+  label{
+  	font-size: 1.125rem;
+  	margin-bottom: 10px;
+  	display: block;
+}
+
+  input[type="text"],
+  input[type="email"],
+  textarea{
+  	background: rgba(255,255,255,.5);
+  	border: 1px #E0A080 solid;
+  	border-radius: 5px;
+  	padding: 10px;
+  	font-size: 1rem;
+}
+
+  input[type="text"],
+  input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+#date{
+	border: 1px #E0A080 solid;
+    width: 240px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.5);
+}
+
+/*access画面のマップ*/
+#location {
+    padding: 4% 0;
+}
+
+.location-info{
+    width: 100%;
+}
+
+.location-info p{
+    padding: 15px 10px;
+}
+
+.location-map{
+    width: 100%;
+}
+
+.location-map iframe{
+  width: 100%;
+}
+
+.second-article{
+	display: flex;
+	justify-content: flex-end;
+  padding-bottom: 5%;
+}
+
+.spot-info{
+  padding-top: 60px;
+}
+
+.sightseeing{
+  padding: 15px 10px;
+}
+
+/*トップへ戻るボタン*/
+#page-top {
+	  position: fixed;
+	  bottom: 20px;
+	  right: 20px;
+	  line-height: 1;
+	  z-index: 89;
+}
+
+#page-top a {
+	  background: #E0A080;
+	  text-decoration: none;
+	  color: #432;
+	  border: solid #432;
+	  width: 60px;
+	  padding: 21px 5px;
+	  text-align: center;
+	  display: block;
+	  border-radius: 90px;
+	  opacity: 0.9;
+	  transition: all .3s ease;
+	  height: 75px;
+}
+
+#page-top a:hover {
+	  text-decoration: none;
+	  opacity: .5;
+}
+
+#page-top-img{
+	object-fit: contain;
+	padding-bottom: 26px;
+}
+
+/*コンテンツ*/
+.p{
+	font-size: 25px;
+	border-bottom: 2px #E0A080 dashed;
+}
+
+.p-for-event{
+  padding-top:37px;
+}
+
+.first-p{
+    font-weight: 700;
+}
+
+.center-text{
+	text-align: center;
+}
+
+
+/*コースについて*/
+#course{
+	border: solid #E0a080;
+	padding: 37px;
+	border-radius: 50px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.course-box{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.level{
+	margin: 10px 0;
+	padding: 15px;
+}
+
+.level-p{
+	font-weight: 700;
+	border-bottom: dashed #e0a080;
+	margin-bottom: 10px;
+}
+
+#level-box{
+	border: solid;
+	padding: 18px;
+}
+
+.addpadding{
+	padding-bottom: 20px;
+}
+
+/*イベントについて*/
+#event{
+	border: solid #E0a080;
+	border-radius: 50px;
+	width: 90%;
+	margin: 47px auto;
+	text-align: center;
+}
+
+#event small{
+    color: #8d4f25;
+    text-decoration: underline;
+}
+
+#about-event{
+	padding-top: 20px;
+}
+/*event画像*/
+#event-imgs{
+	padding-top: 17px;
+}
+
+.month-images{
+	height: 291px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.month-images:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.month{
+  padding-bottom: 0;
+}
+
+.month p{
+    padding-bottom: 10px;
+}
+
+/*event毎月の画像*/
+#January{background-image:url("images/イベント画像1january.png")}
+#Feburary{background-image:url("images/イベント画像2feburary.png")}
+#March{background-image:url("images/イベント画像3march.png")}
+#April{background-image:url("images/イベント画像4april.png")}
+#May{background-image:url("images/イベント画像5may.png")}
+#June{background-image:url("images/イベント画像6june.png")}
+#July{background-image:url("images/イベント画像7july.png")}
+#August{background-image:url("images/イベント画像8august.png")}
+#September{background-image:url("images/イベント画像9september.png")}
+#October{background-image:url("images/イベント画像10october.png")}
+#November{background-image:url("images/イベント画像11november.png")}
+#December{background-image:url("images/イベント画像12december.png")}
+
+#event-row1{
+	display: flex;
+	justify-content: space-around;
+}
+
+#event-row2{
+	display: flex;
+	justify-content: space-around;
+}
+
+#event-row3{
+	display: flex;
+	justify-content: space-around;
+}
+
+#event-row4{
+	display: flex;
+	justify-content: space-around;
+}
+#event-row5{
+	display: flex;
+	justify-content: space-around;
+}
+#event-row6{
+	display: flex;
+	justify-content: space-around;
+}
+
+#menu-btn-check{
+		display: none;
+	}
+
+/*パンくずリスト*/
+.breadcrumb{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.breadcrumb li{
+  display: inline;
+  list-style: none;
+  font-weight: bold;
+}
+
+.first-breadcrumb::after{
+  content:'>';
+  color: #555;
+}
+/*パンくずリストデザイン*/
+.breadcrumb li a{
+  color: #432;
+  padding: 5px;
+}
+
+.breadcrumb li a:hover{
+  text-decoration: underline;
+}
+
+.breadcrumb-p{
+  font-size: small;
+}
+/*パンくずリスト終わり*/
+
+/*スライダー*/
+.slider {
+  position:relative;
+	z-index: 1;
+	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+}
+
+
+.slider-item {
+    width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    background-repeat: no-repeat;/*背景画像をリピートしない*/
+    background-position: center;/*背景画像の位置を中央に*/
+    background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+}
+
+/*矢印の設定*/
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+	z-index: 3;
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #fff;/*矢印の色*/
+    border-right: 2px solid #fff;/*矢印の色*/
+    height: 25px;
+    width: 25px;
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left:2.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right:2.5%;
+    transform: rotate(45deg);
+}
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+	position: relative;
+	z-index: 3;
+    text-align:center;
+	margin:-50px 0 0 0;/*ドットの位置*/
+}
+
+.slick-dots li {
+    display:inline-block;
+	margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;/*ドットボタンのサイズ*/
+    height:8px;/*ドットボタンのサイズ*/
+    display:block;
+    border-radius:50%;
+    background:#fff;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#333;/*ドットボタンの現在地表示の色*/
+}
+
+/*slider終了*/
+
+#about-store{
+  padding-top: 5px;
+}
+
+/*index0.html*/
+.bgSwitcher{
+  height: 100vh;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
